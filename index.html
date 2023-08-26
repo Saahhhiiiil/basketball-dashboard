@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <title>points-table</title>
+  </head>
+  <body>
+    <div class="container">
+
+
+      <div class="main-title">
+        <h1>POINTS TABLE</h1>
+      </div>
+      <!-- title  -->
+
+
+      <div class="main-box">
+        <div class="red-box box">
+          <h3 class="title">TEAM RED</h3>
+          <div class="points red-points">0</div>
+          <div class="btns">
+            <button class="btn red-btn1" onclick="increaseRed1()">+1</button>
+            <button class="btn red-btn2" onclick="increaseRed2()">+2</button>
+            <button class="btn red-btn3" onclick="increaseRed3()">+3</button>
+          </div>
+          <!-- btns  -->
+          <button class="reset red-reset" onclick="redReset()">RESET</button>
+        </div>
+        <!-- red box  -->
+
+
+        <div  class="blue-box box">
+          <h3 class="title">TEAM BLUE</h3>
+          <div class="points blue-points">0</div>
+          <div class="btns">
+            <button class="btn blue-btn1" onclick="increaseBlue1()">+1</button>
+            <button class="btn blue-btn2" onclick="increaseBlue2()">+2</button>
+            <button class="btn blue-btn3" onclick="increaseBlue3()">+3</button>
+          </div>
+          <!-- btns  -->
+          <button class="reset blue-reset" onclick="blueReset()">RESET</button>
+        </div>
+        <!-- blue box  -->
+      </div>
+      <!-- main-box  -->
+    </div>
+    <!-- container  -->
+    <script src="index.js"></script>
+  </body>
+</html>

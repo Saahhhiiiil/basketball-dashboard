@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/close-up-basketball-court.jpg);
+    background-size: cover;
+    font-family: 'Orbitron', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    /* border: 1rem solid red; */
+}
+
+
+.main-title {
+    color: #020e50d3;
+    font-size: 1.5rem;
+}
+
+/* ===== container ======  */
+
+.container {
+    /* border:0.2rem solid white ; */
+    border-radius: 2rem;
+    box-shadow: 0.5rem 0.5rem 2rem 0.5rem black;
+    background: linear-gradient(to right bottom ,#e85d04 , #f48c06 , #e85d04);
+    width: 50rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+/* ===== main box =====  */
+.main-box {
+    width: 45rem;
+    /* height: 25rem; */
+    display: flex;
+    /* border: 0.3rem solid yellow; */
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+
+/* ===== red+blue boxes ====  */
+.box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 20rem;
+    height: 25rem;
+    /* border: 0.2rem solid black; */
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem #ffccd5;
+}
+
+
+/* red box  */
+.red-box {
+    background: linear-gradient(#d00000 , #e85d04, #d00000);
+}
+
+/* blue-box */
+.blue-box {
+    background: linear-gradient(#023e8a,#00b4d8, #023e8a);
+}
+
+
+/* ===== title ===== */
+.title {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    /* border: 0.1rem solid black; */
+    color: white ;
+}
+
+
+/* ===== points ===== */
+
+.points {
+    font-family: Cursedfont;
+    /* font-weight: 800; */
+    width: 9rem;
+    height:8rem;
+    font-size: 5rem;
+    margin-top: 0;
+    /* border: 0.1rem solid black;  */
+    border-radius: 1rem;
+    color: #F94F6D;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* ===== buttons =====  */
+.btns {
+    width: 15rem;
+    /* border: 0.1rem solid black; */
+}
+
+.btn {
+    width: 4rem;
+    height: 2.5rem;
+    font-size: 1.8rem;
+    font-weight: 800;
+    border-radius: 0.5rem;
+    border: none;
+    margin:0 0.2rem ;
+    color: #d8f3dc;
+    background-color: #14213d;
+}
+
+.btn:hover {
+    color: #14213d;
+    background-color: #d8f3dc;
+}
+
+.reset {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    background-color: #2b9348;
+    color: #c7f9cc;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem black;
+}
+
+.reset:active {
+    background-color: #c7f9cc;
+    color: #2b9348;
+}
